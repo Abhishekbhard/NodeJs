@@ -40,4 +40,8 @@ const fs =require('fs');
     
 
     }
-    module.exports=requestHandler;
+    // module.exports={handler:requestHandler,
+    // someText:'Some Text'};
+
+    module.exports.handler=requestHandler;
+    module.exports.someText='Some Text';
