@@ -3,7 +3,7 @@ const http=require('http');
 
  const routes=require('./route');
 
- console.log(routes.someText)
+ console.log(routes.someText,"With hjkNodemon")
 
 
 const server=http.createServer(routes.handler);
